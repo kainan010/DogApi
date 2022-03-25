@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dogListFragment"
+        android:icon="@drawable/pawprint"
+        android:iconTint="@color/black"
+        android:title="Dogs"/>
+
+   <!-- <item
+        android:id="@+id/cardsFragment"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Cards"/>-->
+
+<!--    <item
+        android:id="@+id/navigation_artists"
+        android:icon="@drawable/ic_person"
+        android:title="Artists"/>-->
+</menu>
