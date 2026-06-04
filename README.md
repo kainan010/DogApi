@@ -6,6 +6,18 @@ Built with **Jetpack Compose**, **Material 3**, **Clean Architecture**, **Koin D
 
 ---
 
+## 📱 Demo
+
+<p align="center">
+  <a href="https://github.com/kainan010/DogApi/blob/main/demo/app_demo.mp4">
+    <img src="https://github.com/kainan010/DogApi/raw/main/demo/app_demo.gif" alt="WhatsUpDog Demo" width="300"/>
+  </a>
+</p>
+
+> 📹 *Click the image above to watch the full demo video, or check the [`demo/`](demo/) folder.*
+
+---
+
 ## ✨ Features
 
 | Feature | Description |
