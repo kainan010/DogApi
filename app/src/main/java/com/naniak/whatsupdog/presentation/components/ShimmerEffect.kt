@@ -137,22 +137,8 @@ private fun Color.luminance(): Float {
 @Composable
 private fun ShimmerPreview() {
     com.naniak.whatsupdog.presentation.theme.WhatsUpDogTheme {
-        androidx.compose.foundation.layout.Column(
-            modifier = Modifier.fillMaxWidth().androidx.compose.foundation.layout.padding(16.dp),
-            verticalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(12.dp)
-        ) {
-            ShimmerCard(height = 150.dp)
-            ShimmerListItem()
-            ShimmerListItem()
-            androidx.compose.foundation.layout.Row(
-                horizontalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(12.dp)
-            ) {
-                ShimmerCircle()
-                androidx.compose.foundation.layout.Column(verticalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(8.dp)) {
-                    ShimmerText(modifier = Modifier.fillMaxWidth(0.7f))
-                    ShimmerText(modifier = Modifier.fillMaxWidth(0.5f))
-                }
-            }
+        Box(modifier = Modifier.fillMaxWidth()) {
+            ShimmerCard(height = 200.dp)
         }
     }
 }

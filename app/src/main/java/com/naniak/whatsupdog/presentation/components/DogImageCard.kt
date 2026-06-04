@@ -188,9 +188,8 @@ private fun DogImageCardPreview() {
             breed = "Golden Retriever",
             isFavorite = true,
             onFavoriteClick = {},
-            modifier = androidx.compose.ui.Modifier
-                .androidx.compose.foundation.layout.fillMaxWidth()
-                .androidx.compose.foundation.layout.aspectRatio(0.85f),
+            modifier = Modifier
+                .fillMaxSize(),
             cornerRadius = 24.dp,
             elevation = 8.dp
         )
@@ -206,11 +205,11 @@ private fun DogImageCardDarkPreview() {
             breed = "Husky",
             isFavorite = false,
             onFavoriteClick = {},
-            modifier = androidx.compose.ui.Modifier
-                .androidx.compose.foundation.layout.fillMaxWidth()
-                .androidx.compose.foundation.layout.aspectRatio(0.85f),
+            modifier = Modifier
+                .fillMaxSize(),
             cornerRadius = 24.dp,
             elevation = 8.dp
         )
     }
 }
+
