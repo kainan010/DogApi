@@ -14,7 +14,8 @@ Built with **Jetpack Compose**, **Material 3**, **Clean Architecture**, **Koin D
   </a>
 </p>
 
-> 📹 *Click the image above to watch the full demo video, or check the [`demo/`](demo/) folder.*
+
+https://github.com/user-attachments/assets/15a28bae-dba4-4f44-bcca-79e46fb98608
 
 ---
 
