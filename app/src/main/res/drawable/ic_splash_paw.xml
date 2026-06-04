@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Main Pad (heart-shaped bottom) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,76 C49,76 44,73 41,69 C38,65 37,60 38,56 C39,52 42,49 46,47 C50,45 54,45 54,45 C54,45 58,45 62,47 C66,49 69,52 70,56 C71,60 70,65 67,69 C64,73 59,76 54,76Z" />
+
+    <!-- Top Left Toe -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,44 C33.5,44 31.5,42.5 30.5,40 C29.5,37.5 30,35 31.5,33 C33,31 35.5,30 38,30.5 C40.5,31 42.5,32.5 43,35 C43.5,37.5 43,40 41,42 C39.5,43.5 37.5,44 36,44Z" />
+
+    <!-- Top Right Toe -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,44 C70.5,44 68.5,43.5 67,42 C65,40 64.5,37.5 65,35 C65.5,32.5 67.5,31 70,30.5 C72.5,30 75,31 76.5,33 C78,35 78.5,37.5 77.5,40 C76.5,42.5 74.5,44 72,44Z" />
+
+    <!-- Left Toe -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,58 C25.5,58 23.5,57 22,55 C20.5,53 20,50.5 20.5,48 C21,45.5 23,43.5 25.5,43 C28,42.5 30.5,43.5 32,45.5 C33.5,47.5 34,50 33,52.5 C32,55 30,57.5 28,58Z" />
+
+    <!-- Right Toe -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,58 C78,57.5 76,55 75,52.5 C74,50 74.5,47.5 76,45.5 C77.5,43.5 80,42.5 82.5,43 C85,43.5 87,45.5 87.5,48 C88,50.5 87.5,53 86,55 C84.5,57 82.5,58 80,58Z" />
+</vector>

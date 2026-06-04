@@ -1,26 +1,22 @@
 package com.naniak.whatsupdog
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.navigation.NavController
-import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.ui.setupWithNavController
-import com.naniak.whatsupdog.databinding.ActivityMainBinding
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.naniak.whatsupdog.presentation.navigation.AppNavigation
+import com.naniak.whatsupdog.presentation.theme.WhatsUpDogTheme
 
-
-class MainActivity : AppCompatActivity() {
-    lateinit var navController: NavController
-    private lateinit var binding: ActivityMainBinding
-
+class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen()
         super.onCreate(savedInstanceState)
-        setTheme(R.style.Theme_Main)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
-        val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
-        navController = navHostFragment.navController
-        binding.navigation.setupWithNavController(navController)
-
+        enableEdgeToEdge()
+        setContent {
+            WhatsUpDogTheme {
+                AppNavigation()
+            }
+        }
     }
 }

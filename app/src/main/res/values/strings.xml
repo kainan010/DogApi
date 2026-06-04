@@ -1,7 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">WhatsUpDog</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="error_default">Erro desconhecido, tente novamente.</string>
-    <string name="button_next">próximo</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_breeds">Raças</string>
+    <string name="tab_favorites">Favoritos</string>
+    <string name="next_dog">Próximo Dog 🐾</string>
+    <string name="search_breeds">Buscar raças…</string>
+    <string name="error_generic">Algo deu errado. Tente novamente.</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="no_favorites">Nenhum favorito ainda</string>
+    <string name="no_favorites_subtitle">Toque no coração para salvar seus dogs favoritos!</string>
+    <string name="breed_gallery">Galeria de %1$s</string>
+    <string name="sub_breeds_count">%1$d sub-raças</string>
+    <string name="loading">Carregando…</string>
+    <string name="favorite_added">Adicionado aos favoritos!</string>
+    <string name="favorite_removed">Removido dos favoritos</string>
 </resources>
